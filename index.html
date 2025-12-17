@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bao & Nhi's Love Journey (2025.12.03)</title>
+    <meta
+      name="description"
+      content="Truong Chi Bao and Tran Lan Yen Nhi on their beautiful love journey.(2025.12.03)"
+    />
+    <meta
+      name="keywords"
+      content="bao, nhi, love, love journey, love story, relationship journey, 2025.12.03"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .love-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: all 0.3s ease;
+      }
+      .love-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(236, 72, 153, 0.3);
+      }
+      .highlight {
+        color: #ec4899;
+        font-weight: bold;
+      }
+      .heart {
+        color: #ec4899;
+        animation: pulse 1.5s infinite;
+      }
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+      <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Bao <span class="heart">❤</span> Nhi
+        </h1>
+        <p class="text-xl text-pink-400">Our Love Journey Since 2025.12.03</p>
+      </header>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <!-- Love Duration Card -->
+        <div class="love-card rounded-xl p-6">
+          <h2 class="text-2xl font-bold mb-4 text-center">Our Love Duration</h2>
+          <div class="space-y-2">
+            <p><span class="highlight" id="love-years">0</span> years</p>
+            <p><span class="highlight" id="love-days">0</span> days</p>
+            <p><span class="highlight" id="love-hours">0</span> hours</p>
+            <p><span class="highlight" id="love-minutes">0</span> minutes</p>
+            <p><span class="highlight" id="love-seconds">0</span> seconds</p>
+          </div>
+        </div>
+
+        <!-- Next Anniversary Card -->
+        <div class="love-card rounded-xl p-6">
+          <h2 class="text-2xl font-bold mb-4 text-center">Next Anniversary</h2>
+          <div class="space-y-2">
+            <p><span class="highlight" id="anniv-days">0</span> days</p>
+            <p><span class="highlight" id="anniv-hours">0</span> hours</p>
+            <p><span class="highlight" id="anniv-minutes">0</span> minutes</p>
+            <p><span class="highlight" id="anniv-seconds">0</span> seconds</p>
+          </div>
+        </div>
+
+        <!-- Bao's Birthday Card -->
+        <div class="love-card rounded-xl p-6">
+          <h2 class="text-2xl font-bold mb-4 text-center">Bao's Birthday</h2>
+          <p class="mb-4">June 20 (2003)</p>
+          <div class="space-y-2">
+            <p><span class="highlight" id="bao-days">0</span> days</p>
+            <p><span class="highlight" id="bao-hours">0</span> hours</p>
+            <p><span class="highlight" id="bao-minutes">0</span> minutes</p>
+          </div>
+        </div>
+
+        <!-- Nhi's Birthday Card -->
+        <div class="love-card rounded-xl p-6">
+          <h2 class="text-2xl font-bold mb-4 text-center">Nhi's Birthday</h2>
+          <p class="mb-4">November 17 (2008)</p>
+          <div class="space-y-2">
+            <p><span class="highlight" id="nhi-days">0</span> days</p>
+            <p><span class="highlight" id="nhi-hours">0</span> hours</p>
+            <p><span class="highlight" id="nhi-minutes">0</span> minutes</p>
+          </div>
+        </div>
+
+        <!-- Anniversary Date Card -->
+        <div class="love-card rounded-xl p-6">
+          <h2 class="text-2xl font-bold mb-4 text-center">Special Date</h2>
+          <p class="text-lg mb-2">Started Dating:</p>
+          <p class="highlight">December 03, 2025</p>
+          <p class="text-lg mt-4 mb-2">Time:</p>
+          <p class="highlight">00:00 AM</p>
+        </div>
+
+        <!-- Love Message Card -->
+        <div class="love-card rounded-xl p-6 flex items-center justify-center">
+          <div class="text-center">
+            <p class="text-2xl mb-4">Every moment with you is special</p>
+            <span class="heart text-4xl">❤</span>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center text-gray-400 mt-12">
+        <p>Created with love by b401t</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
