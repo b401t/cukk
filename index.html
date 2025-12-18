@@ -17,31 +17,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./love.png" type="image/png" />
-    <style>
-      .love-card {
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        transition: all 0.3s ease;
-      }
-      .love-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(236, 72, 153, 0.3);
-      }
-      .highlight {
-        color: #ec4899;
-        font-weight: bold;
-      }
-      .heart {
-        color: #ec4899;
-        animation: pulse 1.5s infinite;
-      }
-      @keyframes pulse {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        100% { transform: scale(1); }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body class="bg-gray-900 text-white min-h-screen">
     <div class="container mx-auto px-4 py-8">
@@ -76,15 +52,13 @@
           </div>
         </div>
 
-        <!-- Bao's Birthday Card -->
+                <!-- Anniversary Date Card -->
         <div class="love-card rounded-xl p-6">
-          <h2 class="text-2xl font-bold mb-4 text-center">Bao's Birthday</h2>
-          <p class="mb-4">June 20 (2003)</p>
-          <div class="space-y-2">
-            <p><span class="highlight" id="bao-days">0</span> days</p>
-            <p><span class="highlight" id="bao-hours">0</span> hours</p>
-            <p><span class="highlight" id="bao-minutes">0</span> minutes</p>
-          </div>
+          <h2 class="text-2xl font-bold mb-4 text-center">Special Date</h2>
+          <p class="text-lg mb-2">Started Dating:</p>
+          <p class="highlight">December 03, 2025</p>
+          <p class="text-lg mt-4 mb-2">Time:</p>
+          <p class="highlight">00:00 AM</p>
         </div>
 
         <!-- Nhi's Birthday Card -->
@@ -98,14 +72,17 @@
           </div>
         </div>
 
-        <!-- Anniversary Date Card -->
+        <!-- Bao's Birthday Card -->
         <div class="love-card rounded-xl p-6">
-          <h2 class="text-2xl font-bold mb-4 text-center">Special Date</h2>
-          <p class="text-lg mb-2">Started Dating:</p>
-          <p class="highlight">December 03, 2025</p>
-          <p class="text-lg mt-4 mb-2">Time:</p>
-          <p class="highlight">00:00 AM</p>
+          <h2 class="text-2xl font-bold mb-4 text-center">Bao's Birthday</h2>
+          <p class="mb-4">June 20 (2003)</p>
+          <div class="space-y-2">
+            <p><span class="highlight" id="bao-days">0</span> days</p>
+            <p><span class="highlight" id="bao-hours">0</span> hours</p>
+            <p><span class="highlight" id="bao-minutes">0</span> minutes</p>
+          </div>
         </div>
+
 
         <!-- Love Message Card -->
         <div class="love-card rounded-xl p-6 flex items-center justify-center">
